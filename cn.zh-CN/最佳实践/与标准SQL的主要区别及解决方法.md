@@ -6,7 +6,7 @@
 
 **应用场景**
 
--   不支持事物（没有 commit 和 rollback，建议代码具有等幂性支持重跑，不推荐使用 Insert Into，推荐 Insert Overwrite 写入数据）。
+-   不支持事务（没有 commit 和 rollback，建议代码具有等幂性支持重跑，不推荐使用 Insert Into，推荐 Insert Overwrite 写入数据）。
 
 -   不支持索引和主外键约束。
 
